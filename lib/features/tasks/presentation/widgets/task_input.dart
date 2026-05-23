@@ -4,7 +4,6 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../providers/task_provider.dart';
 import '../../../settings/presentation/providers/shortcut_provider.dart';
 import '../../../../core/theme/app_colors.dart';
-import '../../../../core/theme/liquid_glass.dart';
 
 /// Persistent input bar fixed at the bottom of the screen.
 /// Parses shortcuts on submit and adds tasks.

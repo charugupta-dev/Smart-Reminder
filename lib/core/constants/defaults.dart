@@ -1,6 +1,3 @@
-import 'package:flutter/material.dart';
-import '../theme/app_colors.dart';
-
 /// Default shorthand mappings seeded on first launch.
 class Defaults {
   Defaults._();

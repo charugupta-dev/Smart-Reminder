@@ -9,7 +9,10 @@ import '../../../settings/presentation/providers/shortcut_provider.dart';
 import '../../../../core/utils/task_parser.dart';
 import '../../../../core/constants/defaults.dart';
 
+import '../../../settings/data/services/app_alert_service.dart';
+
 const _uuid = Uuid();
+final _appAlertService = AppAlertService();
 
 // ── Datasource & Repository Providers ──
 
@@ -71,6 +74,28 @@ class TaskNotifier extends StateNotifier<AsyncValue<List<TaskEntity>>> {
       state = const AsyncValue.loading();
       final tasks = await _repository.getPendingTasks();
       state = AsyncValue.data(tasks);
+      
+      // Tell native side what the current count and top category are
+      if (tasks.isNotEmpty) {
+        final categoryCounts = <String, int>{};
+        for (final task in tasks) {
+          categoryCounts[task.categoryName] = (categoryCounts[task.categoryName] ?? 0) + 1;
+        }
+        final topCategory = categoryCounts.entries
+            .reduce((a, b) => a.value > b.value ? a : b)
+            .key;
+            
+        await _appAlertService.syncTaskData(
+          pendingCount: tasks.length,
+          topCategory: topCategory,
+        );
+      } else {
+        await _appAlertService.syncTaskData(
+          pendingCount: 0,
+          topCategory: 'Inbox',
+        );
+      }
+
     } catch (e, st) {
       state = AsyncValue.error(e, st);
     }

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F21A1A1A"> <!-- very dark slightly translucent background backing everything -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/icon_lock"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@android:drawable/ic_secure"
+            android:tint="#FFFFFF"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wait! You have pending chores."
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/text_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You have X items in 'Category'."
+            android:textColor="#B3FFFFFF"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:layout_marginBottom="48dp" />
+
+        <Button
+            android:id="@+id/btn_open_app"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Open Reminders App"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#568CFF"
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:stateListAnimator="@null"
+            android:elevation="0dp"
+            android:cornerRadius="12dp" />
+
+        <Button
+            android:id="@+id/btn_skip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Skip for 15 mins"
+            android:textColor="#568CFF"
+            android:backgroundTint="#00000000"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:padding="16dp"
+            android:stateListAnimator="@null"
+            android:elevation="0dp"/>
+
+    </LinearLayout>
+</FrameLayout>

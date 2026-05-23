@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../providers/shortcut_provider.dart';
 import '../widgets/shortcut_form_dialog.dart';
+import '../widgets/app_usage_alerts_section.dart';
 import '../../../tasks/presentation/providers/task_provider.dart';
 import '../../../tasks/presentation/widgets/task_tile.dart';
 import '../../../../core/theme/app_colors.dart';
@@ -31,11 +32,10 @@ class SettingsScreen extends ConsumerWidget {
               if (shortcuts.isEmpty) {
                 return const Text('No shortcuts configured.');
               }
-              return Container(
-                decoration: BoxDecoration(
-                  color: AppColors.surfaceElevated,
-                  borderRadius: BorderRadius.circular(16),
-                ),
+              return Material(
+                color: AppColors.surfaceElevated,
+                borderRadius: BorderRadius.circular(16),
+                clipBehavior: Clip.antiAlias,
                 child: Column(
                   children: shortcuts.asMap().entries.map((entry) {
                     final index = entry.key;
@@ -76,6 +76,10 @@ class SettingsScreen extends ConsumerWidget {
           ),
 
           const SizedBox(height: 32),
+          // App Usage Alerts section
+          const AppUsageAlertsSection(),
+          const SizedBox(height: 32),
+
           // Completed Tasks section
           Theme(
             data: Theme.of(context).copyWith(dividerColor: Colors.transparent),

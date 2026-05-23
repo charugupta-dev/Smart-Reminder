@@ -1,7 +1,6 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
 import '../../core/theme/app_colors.dart';
-import '../../core/theme/liquid_glass.dart';
 
 /// Navigation item for the sidebar.
 class SidebarItem {
@@ -31,7 +30,11 @@ class AppSidebar extends StatelessWidget {
 
   static const List<SidebarItem> items = [
     SidebarItem(icon: Icons.inbox_rounded, label: 'Tasks', index: 0),
-    SidebarItem(icon: Icons.check_circle_outline_rounded, label: 'Completed', index: 1),
+    SidebarItem(
+      icon: Icons.check_circle_outline_rounded,
+      label: 'Completed',
+      index: 1,
+    ),
     SidebarItem(icon: Icons.tune_rounded, label: 'Settings', index: 2),
   ];
 
@@ -47,10 +50,7 @@ class AppSidebar extends StatelessWidget {
           decoration: BoxDecoration(
             color: AppColors.surfaceDark.withOpacity(0.7),
             border: Border(
-              right: BorderSide(
-                color: AppColors.borderGlass,
-                width: 0.5,
-              ),
+              right: BorderSide(color: AppColors.borderGlass, width: 0.5),
             ),
           ),
           child: Column(
@@ -82,9 +82,9 @@ class AppSidebar extends StatelessWidget {
                       Text(
                         'SmartRemind',
                         style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                              fontWeight: FontWeight.w700,
-                              letterSpacing: -0.5,
-                            ),
+                          fontWeight: FontWeight.w700,
+                          letterSpacing: -0.5,
+                        ),
                       ),
                     ],
                   ),
@@ -149,50 +149,57 @@ class AppSidebar extends StatelessWidget {
               vertical: 12,
             ),
             decoration: BoxDecoration(
-              color: isSelected
-                  ? AppColors.accentPrimary.withOpacity(0.15)
-                  : Colors.transparent,
+              color:
+                  isSelected
+                      ? AppColors.accentPrimary.withOpacity(0.15)
+                      : Colors.transparent,
               borderRadius: BorderRadius.circular(12),
-              border: isSelected
-                  ? Border.all(
-                      color: AppColors.accentPrimary.withOpacity(0.3),
-                      width: 0.5,
-                    )
-                  : null,
+              border:
+                  isSelected
+                      ? Border.all(
+                        color: AppColors.accentPrimary.withOpacity(0.3),
+                        width: 0.5,
+                      )
+                      : null,
             ),
-            child: isCompact
-                ? Center(
-                    child: Icon(
-                      item.icon,
-                      color: isSelected
-                          ? AppColors.accentPrimary
-                          : AppColors.textSecondary,
-                      size: 22,
-                    ),
-                  )
-                : Row(
-                    children: [
-                      Icon(
+            child:
+                isCompact
+                    ? Center(
+                      child: Icon(
                         item.icon,
-                        color: isSelected
-                            ? AppColors.accentPrimary
-                            : AppColors.textSecondary,
+                        color:
+                            isSelected
+                                ? AppColors.accentPrimary
+                                : AppColors.textSecondary,
                         size: 22,
                       ),
-                      const SizedBox(width: 14),
-                      Text(
-                        item.label,
-                        style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                              color: isSelected
+                    )
+                    : Row(
+                      children: [
+                        Icon(
+                          item.icon,
+                          color:
+                              isSelected
                                   ? AppColors.accentPrimary
                                   : AppColors.textSecondary,
-                              fontWeight: isSelected
-                                  ? FontWeight.w600
-                                  : FontWeight.w400,
-                            ),
-                      ),
-                    ],
-                  ),
+                          size: 22,
+                        ),
+                        const SizedBox(width: 14),
+                        Text(
+                          item.label,
+                          style: Theme.of(
+                            context,
+                          ).textTheme.bodyLarge?.copyWith(
+                            color:
+                                isSelected
+                                    ? AppColors.accentPrimary
+                                    : AppColors.textSecondary,
+                            fontWeight:
+                                isSelected ? FontWeight.w600 : FontWeight.w400,
+                          ),
+                        ),
+                      ],
+                    ),
           ),
         ),
       ),

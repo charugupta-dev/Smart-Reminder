@@ -7,24 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03654634EADE3921A098A3D9 /* ManagedSettings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3835EF4362A5CA22BC2660C9 /* ManagedSettings.framework */; };
 		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
+		1FB33655DF22453E3A99352B /* SmartRemindDeviceActivity.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 11AA7BFCADDE18EB7E419D98 /* SmartRemindDeviceActivity.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		331C808B294A63AB00263BE5 /* RunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331C807B294A618700263BE5 /* RunnerTests.swift */; };
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
+		40D08D01952793F621A56342 /* SmartRemindShieldAction.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FBB44A30ACFF37DB66B720F3 /* SmartRemindShieldAction.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		44516A959E706272181D48EA /* AppUsageShieldSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0CAEC1F03EA8C700060801 /* AppUsageShieldSupport.swift */; };
+		448C9AEE4E0D6B5F75B90E65 /* FamilyControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 952C32288894A4C6BF678C7C /* FamilyControls.framework */; };
+		4AD31808BE6F443B69F50CD1 /* AppUsageShieldSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0CAEC1F03EA8C700060801 /* AppUsageShieldSupport.swift */; };
+		4CFB0EACF5A1D573308C35E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF1F98079D0808DBCB396701 /* Foundation.framework */; };
+		5643DA08767E5D79C25DC89A /* ShieldConfigurationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E129A2D6915545B96FE186 /* ShieldConfigurationExtension.swift */; };
+		5B4AB38DD2DE9051189DB34A /* DeviceActivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06CAD686FE7892869487C892 /* DeviceActivity.framework */; };
 		60E243C11C926ED3451EBFE7 /* Pods_RunnerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6989F965BCFD3698FABD239F /* Pods_RunnerTests.framework */; };
 		74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
+		77C5CC9601105EF1EF78720B /* AppUsageShieldSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0CAEC1F03EA8C700060801 /* AppUsageShieldSupport.swift */; };
+		81479B138E36B0CB28E9BA49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF1F98079D0808DBCB396701 /* Foundation.framework */; };
+		819E65C6692E1B08E23D4D6C /* ShieldActionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B052750CA85812544BA1FC /* ShieldActionExtension.swift */; };
+		826FAA7FD9284D29AA822042 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF1F98079D0808DBCB396701 /* Foundation.framework */; };
+		9342D6C8528A7C00E30BF0FC /* DeviceActivityMonitorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648A811967E5C60E1AEB418C /* DeviceActivityMonitorExtension.swift */; };
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
 		A8CCFC80F3C4FBBC8FE1F488 /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE4B64908CECB3C3B978AE3 /* Pods_Runner.framework */; };
+		B46722073735AD5D32BDF83F /* ManagedSettingsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7196E9F6560DCC50DFF5A843 /* ManagedSettingsUI.framework */; };
+		BB08B77221BD37EFA9A65BA0 /* DeviceActivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06CAD686FE7892869487C892 /* DeviceActivity.framework */; };
+		BE5CD392061ECE7570101B6F /* FamilyControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 952C32288894A4C6BF678C7C /* FamilyControls.framework */; };
+		C811D966EC441469BEA6AA2C /* AppUsageShieldSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0CAEC1F03EA8C700060801 /* AppUsageShieldSupport.swift */; };
+		CE13B59EE28999E69569E879 /* ManagedSettings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3835EF4362A5CA22BC2660C9 /* ManagedSettings.framework */; };
+		CE35E1FBDAA695706BD83397 /* SmartRemindShieldConfig.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D9ACA5F09249364FB4F9BB8C /* SmartRemindShieldConfig.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D59F6C1B1A5329E73F613016 /* FamilyControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 952C32288894A4C6BF678C7C /* FamilyControls.framework */; };
+		D83BEF2BB420713A5B9CA20F /* ManagedSettings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3835EF4362A5CA22BC2660C9 /* ManagedSettings.framework */; };
+		FA78D616AEDE0E1497DF8E3C /* DeviceActivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06CAD686FE7892869487C892 /* DeviceActivity.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1D470571E1C98942BD2E00CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97C146E61CF9000F007C117D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F796A22D0CE4CF5874D4F25;
+			remoteInfo = SmartRemindDeviceActivity;
+		};
 		331C8085294A63A400263BE5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 97C146E61CF9000F007C117D /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 97C146ED1CF9000F007C117D;
 			remoteInfo = Runner;
+		};
+		DE21B3F9FFCE5F530A54EC7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97C146E61CF9000F007C117D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4AC454F9525DF61CBD7B883;
+			remoteInfo = SmartRemindShieldConfig;
+		};
+		ED4F31569029894638CD802A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97C146E61CF9000F007C117D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B6DC29813BC3E72E99DE569;
+			remoteInfo = SmartRemindShieldAction;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -39,21 +83,47 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9BDC9C332853D0BA199178A3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1FB33655DF22453E3A99352B /* SmartRemindDeviceActivity.appex in Embed App Extensions */,
+				40D08D01952793F621A56342 /* SmartRemindShieldAction.appex in Embed App Extensions */,
+				CE35E1FBDAA695706BD83397 /* SmartRemindShieldConfig.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		06CAD686FE7892869487C892 /* DeviceActivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DeviceActivity.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/DeviceActivity.framework; sourceTree = DEVELOPER_DIR; };
+		11AA7BFCADDE18EB7E419D98 /* SmartRemindDeviceActivity.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SmartRemindDeviceActivity.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
 		1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
+		25E129A2D6915545B96FE186 /* ShieldConfigurationExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ShieldConfigurationExtension.swift; sourceTree = "<group>"; };
 		2FE4B64908CECB3C3B978AE3 /* Pods_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		331C807B294A618700263BE5 /* RunnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunnerTests.swift; sourceTree = "<group>"; };
 		331C8081294A63A400263BE5 /* RunnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3835EF4362A5CA22BC2660C9 /* ManagedSettings.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ManagedSettings.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/ManagedSettings.framework; sourceTree = DEVELOPER_DIR; };
 		3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AppFrameworkInfo.plist; path = Flutter/AppFrameworkInfo.plist; sourceTree = "<group>"; };
+		5171BCA2427A9E65C27AABDB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56E8C3ABEC0937ED1FD77771 /* SmartRemindDeviceActivity.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = SmartRemindDeviceActivity.entitlements; sourceTree = "<group>"; };
+		5ACCA862AAFDEF4F38BAFCA5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		648A811967E5C60E1AEB418C /* DeviceActivityMonitorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DeviceActivityMonitorExtension.swift; sourceTree = "<group>"; };
 		6989F965BCFD3698FABD239F /* Pods_RunnerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RunnerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		704F5FE1D8BA107889600FC6 /* SmartRemindShieldConfig.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = SmartRemindShieldConfig.entitlements; sourceTree = "<group>"; };
+		7196E9F6560DCC50DFF5A843 /* ManagedSettingsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ManagedSettingsUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/ManagedSettingsUI.framework; sourceTree = DEVELOPER_DIR; };
 		74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner-Bridging-Header.h"; sourceTree = "<group>"; };
 		74858FAE1ED2DC5600515810 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AFA3C8E1D35360C0083082E /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = Flutter/Release.xcconfig; sourceTree = "<group>"; };
 		84C7D06E1C82B8947B913E45 /* Pods-RunnerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.release.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.release.xcconfig"; sourceTree = "<group>"; };
 		897B9E4CE40472182F98D57E /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.profile.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
+		8A0CAEC1F03EA8C700060801 /* AppUsageShieldSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppUsageShieldSupport.swift; sourceTree = "<group>"; };
+		90B052750CA85812544BA1FC /* ShieldActionExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ShieldActionExtension.swift; sourceTree = "<group>"; };
+		952C32288894A4C6BF678C7C /* FamilyControls.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FamilyControls.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/FamilyControls.framework; sourceTree = DEVELOPER_DIR; };
 		9740EEB21CF90195004384FC /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Debug.xcconfig; path = Flutter/Debug.xcconfig; sourceTree = "<group>"; };
 		9740EEB31CF90195004384FC /* Generated.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Generated.xcconfig; path = Flutter/Generated.xcconfig; sourceTree = "<group>"; };
 		97C146EE1CF9000F007C117D /* Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runner.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,11 +133,50 @@
 		97C147021CF9000F007C117D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1D29FECAF7406DF0950CAF9 /* Pods-RunnerTests.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.profile.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.profile.xcconfig"; sourceTree = "<group>"; };
 		A82B3AB8ED8C576EBC0C4766 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
+		ACEC39120954EFB538E4FD3C /* SmartRemindShieldAction.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = SmartRemindShieldAction.entitlements; sourceTree = "<group>"; };
 		D2A529B12190D88D4052D01C /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
+		D9ACA5F09249364FB4F9BB8C /* SmartRemindShieldConfig.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SmartRemindShieldConfig.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF1F98079D0808DBCB396701 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FB311676154CD33A7748E602 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBB44A30ACFF37DB66B720F3 /* SmartRemindShieldAction.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SmartRemindShieldAction.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC45D7878B6ECDA28A815C23 /* Pods-RunnerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.debug.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2C6DE2DCD0888DF534BC1474 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				826FAA7FD9284D29AA822042 /* Foundation.framework in Frameworks */,
+				5B4AB38DD2DE9051189DB34A /* DeviceActivity.framework in Frameworks */,
+				448C9AEE4E0D6B5F75B90E65 /* FamilyControls.framework in Frameworks */,
+				CE13B59EE28999E69569E879 /* ManagedSettings.framework in Frameworks */,
+				B46722073735AD5D32BDF83F /* ManagedSettingsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F5FFB0C5CEFF268FF488A1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CFB0EACF5A1D573308C35E1 /* Foundation.framework in Frameworks */,
+				FA78D616AEDE0E1497DF8E3C /* DeviceActivity.framework in Frameworks */,
+				D59F6C1B1A5329E73F613016 /* FamilyControls.framework in Frameworks */,
+				D83BEF2BB420713A5B9CA20F /* ManagedSettings.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5841507CB87BB4C31088AE21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81479B138E36B0CB28E9BA49 /* Foundation.framework in Frameworks */,
+				BB08B77221BD37EFA9A65BA0 /* DeviceActivity.framework in Frameworks */,
+				BE5CD392061ECE7570101B6F /* FamilyControls.framework in Frameworks */,
+				03654634EADE3921A098A3D9 /* ManagedSettings.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8CAFE0E197DE72D2184D616A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -87,6 +196,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		134ECB970E1D38CAF88CDED8 /* SmartRemindShieldAction */ = {
+			isa = PBXGroup;
+			children = (
+				90B052750CA85812544BA1FC /* ShieldActionExtension.swift */,
+				FB311676154CD33A7748E602 /* Info.plist */,
+				ACEC39120954EFB538E4FD3C /* SmartRemindShieldAction.entitlements */,
+			);
+			name = SmartRemindShieldAction;
+			path = SmartRemindShieldAction;
+			sourceTree = "<group>";
+		};
+		1C6E46F5918BA8E6C759CBD2 /* SmartRemindDeviceActivity */ = {
+			isa = PBXGroup;
+			children = (
+				648A811967E5C60E1AEB418C /* DeviceActivityMonitorExtension.swift */,
+				5ACCA862AAFDEF4F38BAFCA5 /* Info.plist */,
+				56E8C3ABEC0937ED1FD77771 /* SmartRemindDeviceActivity.entitlements */,
+			);
+			name = SmartRemindDeviceActivity;
+			path = SmartRemindDeviceActivity;
+			sourceTree = "<group>";
+		};
+		238F5D14DBF04AE36093C5D0 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				8A0CAEC1F03EA8C700060801 /* AppUsageShieldSupport.swift */,
+			);
+			name = Shared;
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		331C8082294A63A400263BE5 /* RunnerTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,8 +240,21 @@
 			children = (
 				2FE4B64908CECB3C3B978AE3 /* Pods_Runner.framework */,
 				6989F965BCFD3698FABD239F /* Pods_RunnerTests.framework */,
+				6CA12558BE2C36C46357F201 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CA12558BE2C36C46357F201 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DF1F98079D0808DBCB396701 /* Foundation.framework */,
+				06CAD686FE7892869487C892 /* DeviceActivity.framework */,
+				952C32288894A4C6BF678C7C /* FamilyControls.framework */,
+				3835EF4362A5CA22BC2660C9 /* ManagedSettings.framework */,
+				7196E9F6560DCC50DFF5A843 /* ManagedSettingsUI.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		9740EEB11CF90186004384FC /* Flutter */ = {
@@ -124,6 +277,8 @@
 				331C8082294A63A400263BE5 /* RunnerTests */,
 				DDCC8C7A07B0566688E767CE /* Pods */,
 				4944D0EBBF39000E272FBFE4 /* Frameworks */,
+				C98B2F0F6CEBB0DCCCDD8115 /* Extensions */,
+				238F5D14DBF04AE36093C5D0 /* Shared */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +287,9 @@
 			children = (
 				97C146EE1CF9000F007C117D /* Runner.app */,
 				331C8081294A63A400263BE5 /* RunnerTests.xctest */,
+				11AA7BFCADDE18EB7E419D98 /* SmartRemindDeviceActivity.appex */,
+				FBB44A30ACFF37DB66B720F3 /* SmartRemindShieldAction.appex */,
+				D9ACA5F09249364FB4F9BB8C /* SmartRemindShieldConfig.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,6 +309,17 @@
 			path = Runner;
 			sourceTree = "<group>";
 		};
+		C98B2F0F6CEBB0DCCCDD8115 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1C6E46F5918BA8E6C759CBD2 /* SmartRemindDeviceActivity */,
+				134ECB970E1D38CAF88CDED8 /* SmartRemindShieldAction */,
+				EA5C9831ADDA04DC1DC27E0E /* SmartRemindShieldConfig */,
+			);
+			name = Extensions;
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		DDCC8C7A07B0566688E767CE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +332,17 @@
 			);
 			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		EA5C9831ADDA04DC1DC27E0E /* SmartRemindShieldConfig */ = {
+			isa = PBXGroup;
+			children = (
+				25E129A2D6915545B96FE186 /* ShieldConfigurationExtension.swift */,
+				5171BCA2427A9E65C27AABDB /* Info.plist */,
+				704F5FE1D8BA107889600FC6 /* SmartRemindShieldConfig.entitlements */,
+			);
+			name = SmartRemindShieldConfig;
+			path = SmartRemindShieldConfig;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +367,40 @@
 			productReference = 331C8081294A63A400263BE5 /* RunnerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		4B6DC29813BC3E72E99DE569 /* SmartRemindShieldAction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FB07D4AC803C12CADAB5B79 /* Build configuration list for PBXNativeTarget "SmartRemindShieldAction" */;
+			buildPhases = (
+				D92ED15264AF7966F22E430E /* Sources */,
+				5841507CB87BB4C31088AE21 /* Frameworks */,
+				9169267BA5B488314F2AB703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartRemindShieldAction;
+			productName = SmartRemindShieldAction;
+			productReference = FBB44A30ACFF37DB66B720F3 /* SmartRemindShieldAction.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		4F796A22D0CE4CF5874D4F25 /* SmartRemindDeviceActivity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 871FD4BA735C0F2636932784 /* Build configuration list for PBXNativeTarget "SmartRemindDeviceActivity" */;
+			buildPhases = (
+				DA9F53868ADC5F4D5E6C6B9E /* Sources */,
+				3F5FFB0C5CEFF268FF488A1C /* Frameworks */,
+				2BB89D9ADF573DACDE581B43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartRemindDeviceActivity;
+			productName = SmartRemindDeviceActivity;
+			productReference = 11AA7BFCADDE18EB7E419D98 /* SmartRemindDeviceActivity.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		97C146ED1CF9000F007C117D /* Runner */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 97C147051CF9000F007C117D /* Build configuration list for PBXNativeTarget "Runner" */;
@@ -197,17 +411,37 @@
 				97C146EB1CF9000F007C117D /* Frameworks */,
 				97C146EC1CF9000F007C117D /* Resources */,
 				9705A1C41CF9048500538489 /* Embed Frameworks */,
+				9BDC9C332853D0BA199178A3 /* Embed App Extensions */,
 				3B06AD1E1E4923F5004D2608 /* Thin Binary */,
-				407C95500079D6EDDEA71728 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3091C216A53CA87E7219BD2F /* PBXTargetDependency */,
+				598FA4B1A2CF12904FA25A0B /* PBXTargetDependency */,
+				3741C31AE5B819600CEB8C20 /* PBXTargetDependency */,
 			);
 			name = Runner;
 			productName = Runner;
 			productReference = 97C146EE1CF9000F007C117D /* Runner.app */;
 			productType = "com.apple.product-type.application";
+		};
+		E4AC454F9525DF61CBD7B883 /* SmartRemindShieldConfig */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDA683BA6181E4CC0F15BC39 /* Build configuration list for PBXNativeTarget "SmartRemindShieldConfig" */;
+			buildPhases = (
+				B2A525B6FACF9B77B992B66E /* Sources */,
+				2C6DE2DCD0888DF534BC1474 /* Frameworks */,
+				B3A764454AB19A2349D2BD0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartRemindShieldConfig;
+			productName = SmartRemindShieldConfig;
+			productReference = D9ACA5F09249364FB4F9BB8C /* SmartRemindShieldConfig.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -244,12 +478,29 @@
 			targets = (
 				97C146ED1CF9000F007C117D /* Runner */,
 				331C8080294A63A400263BE5 /* RunnerTests */,
+				4F796A22D0CE4CF5874D4F25 /* SmartRemindDeviceActivity */,
+				4B6DC29813BC3E72E99DE569 /* SmartRemindShieldAction */,
+				E4AC454F9525DF61CBD7B883 /* SmartRemindShieldConfig */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2BB89D9ADF573DACDE581B43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		331C807F294A63A400263BE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9169267BA5B488314F2AB703 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -264,6 +515,13 @@
 				3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */,
 				97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */,
 				97C146FC1CF9000F007C117D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A764454AB19A2349D2BD0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,23 +543,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed_and_thin";
-		};
-		407C95500079D6EDDEA71728 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 		9740EEB61CF901F6004384FC /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -379,16 +620,62 @@
 			files = (
 				74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */,
 				1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */,
+				4AD31808BE6F443B69F50CD1 /* AppUsageShieldSupport.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2A525B6FACF9B77B992B66E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5643DA08767E5D79C25DC89A /* ShieldConfigurationExtension.swift in Sources */,
+				77C5CC9601105EF1EF78720B /* AppUsageShieldSupport.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D92ED15264AF7966F22E430E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				819E65C6692E1B08E23D4D6C /* ShieldActionExtension.swift in Sources */,
+				C811D966EC441469BEA6AA2C /* AppUsageShieldSupport.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9F53868ADC5F4D5E6C6B9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9342D6C8528A7C00E30BF0FC /* DeviceActivityMonitorExtension.swift in Sources */,
+				44516A959E706272181D48EA /* AppUsageShieldSupport.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		3091C216A53CA87E7219BD2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SmartRemindDeviceActivity;
+			target = 4F796A22D0CE4CF5874D4F25 /* SmartRemindDeviceActivity */;
+			targetProxy = 1D470571E1C98942BD2E00CB /* PBXContainerItemProxy */;
+		};
 		331C8086294A63A400263BE5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 97C146ED1CF9000F007C117D /* Runner */;
 			targetProxy = 331C8085294A63A400263BE5 /* PBXContainerItemProxy */;
+		};
+		3741C31AE5B819600CEB8C20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SmartRemindShieldConfig;
+			target = E4AC454F9525DF61CBD7B883 /* SmartRemindShieldConfig */;
+			targetProxy = DE21B3F9FFCE5F530A54EC7A /* PBXContainerItemProxy */;
+		};
+		598FA4B1A2CF12904FA25A0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SmartRemindShieldAction;
+			target = 4B6DC29813BC3E72E99DE569 /* SmartRemindShieldAction */;
+			targetProxy = ED4F31569029894638CD802A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -412,6 +699,31 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		0280E3AA0B1CBC1504E4F254 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = Extensions/SmartRemindShieldConfig/SmartRemindShieldConfig.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = Extensions/SmartRemindShieldConfig/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartremind.smartRemind.shieldconfig;
+				PRODUCT_MODULE_NAME = SmartRemindShieldConfig;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
 		249021D3217E4FDB00AE95B9 /* Profile */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -455,7 +767,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
@@ -470,6 +782,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Runner/Info.plist;
@@ -535,6 +848,80 @@
 			};
 			name = Profile;
 		};
+		39234E56BAA14D81B4E15330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = Extensions/SmartRemindDeviceActivity/SmartRemindDeviceActivity.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = Extensions/SmartRemindDeviceActivity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartremind.smartRemind.deviceactivity;
+				PRODUCT_MODULE_NAME = SmartRemindDeviceActivity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53CEF1CF9497F9B25396BA19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = Extensions/SmartRemindShieldAction/SmartRemindShieldAction.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = Extensions/SmartRemindShieldAction/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartremind.smartRemind.shieldaction;
+				PRODUCT_MODULE_NAME = SmartRemindShieldAction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80042B4C35988388E073065F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = Extensions/SmartRemindShieldAction/SmartRemindShieldAction.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = Extensions/SmartRemindShieldAction/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartremind.smartRemind.shieldaction;
+				PRODUCT_MODULE_NAME = SmartRemindShieldAction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
 		97C147031CF9000F007C117D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -584,7 +971,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -635,7 +1022,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
@@ -652,6 +1039,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Runner/Info.plist;
@@ -674,6 +1062,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Runner/Info.plist;
@@ -689,15 +1078,158 @@
 			};
 			name = Release;
 		};
+		AB286D40DAAA02B179F75F61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = Extensions/SmartRemindDeviceActivity/SmartRemindDeviceActivity.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = Extensions/SmartRemindDeviceActivity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartremind.smartRemind.deviceactivity;
+				PRODUCT_MODULE_NAME = SmartRemindDeviceActivity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D4830E074DCBC6D03AB1B9B9 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = Extensions/SmartRemindShieldAction/SmartRemindShieldAction.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = Extensions/SmartRemindShieldAction/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartremind.smartRemind.shieldaction;
+				PRODUCT_MODULE_NAME = SmartRemindShieldAction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+		F02EA686D0F2051501BE8F11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = Extensions/SmartRemindShieldConfig/SmartRemindShieldConfig.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = Extensions/SmartRemindShieldConfig/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartremind.smartRemind.shieldconfig;
+				PRODUCT_MODULE_NAME = SmartRemindShieldConfig;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F663E3B7F7A4D033EEE70FB0 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = Extensions/SmartRemindDeviceActivity/SmartRemindDeviceActivity.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = Extensions/SmartRemindDeviceActivity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartremind.smartRemind.deviceactivity;
+				PRODUCT_MODULE_NAME = SmartRemindDeviceActivity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+		F758BC577AEB10153B29BC07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = Extensions/SmartRemindShieldConfig/SmartRemindShieldConfig.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = Extensions/SmartRemindShieldConfig/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartremind.smartRemind.shieldconfig;
+				PRODUCT_MODULE_NAME = SmartRemindShieldConfig;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1FB07D4AC803C12CADAB5B79 /* Build configuration list for PBXNativeTarget "SmartRemindShieldAction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53CEF1CF9497F9B25396BA19 /* Release */,
+				80042B4C35988388E073065F /* Debug */,
+				D4830E074DCBC6D03AB1B9B9 /* Profile */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		331C8087294A63A400263BE5 /* Build configuration list for PBXNativeTarget "RunnerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				331C8088294A63A400263BE5 /* Debug */,
 				331C8089294A63A400263BE5 /* Release */,
 				331C808A294A63A400263BE5 /* Profile */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		871FD4BA735C0F2636932784 /* Build configuration list for PBXNativeTarget "SmartRemindDeviceActivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39234E56BAA14D81B4E15330 /* Release */,
+				AB286D40DAAA02B179F75F61 /* Debug */,
+				F663E3B7F7A4D033EEE70FB0 /* Profile */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -718,6 +1250,16 @@
 				97C147061CF9000F007C117D /* Debug */,
 				97C147071CF9000F007C117D /* Release */,
 				249021D4217E4FDB00AE95B9 /* Profile */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDA683BA6181E4CC0F15BC39 /* Build configuration list for PBXNativeTarget "SmartRemindShieldConfig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F02EA686D0F2051501BE8F11 /* Release */,
+				F758BC577AEB10153B29BC07 /* Debug */,
+				0280E3AA0B1CBC1504E4F254 /* Profile */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

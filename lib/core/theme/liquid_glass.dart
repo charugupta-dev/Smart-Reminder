@@ -1,6 +1,5 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
-import 'app_colors.dart';
 
 /// Liquid Glass design utilities — frosted glass panels, blur effects,
 /// translucent surfaces inspired by iOS 26 design language.
@@ -40,23 +39,18 @@ class LiquidGlass {
   }
 
   /// Elevated glass decoration with stronger presence.
-  static BoxDecoration elevatedGlassDecoration({
-    BorderRadius? borderRadius,
-  }) {
+  static BoxDecoration elevatedGlassDecoration({BorderRadius? borderRadius}) {
     return BoxDecoration(
       gradient: LinearGradient(
         colors: [
           Colors.white.withOpacity(0.12),
-          Colors.white.withOpacity(0.05),
+          Colors.white.withValues(alpha: 0.05),
         ],
         begin: Alignment.topLeft,
         end: Alignment.bottomRight,
       ),
       borderRadius: borderRadius ?? cardRadius,
-      border: Border.all(
-        color: Colors.white.withOpacity(0.15),
-        width: 0.5,
-      ),
+      border: Border.all(color: Colors.white.withOpacity(0.15), width: 0.5),
       boxShadow: [
         BoxShadow(
           color: Colors.black.withOpacity(0.3),
@@ -83,10 +77,7 @@ class LiquidGlass {
         end: Alignment.bottomRight,
       ),
       borderRadius: borderRadius ?? cardRadius,
-      border: Border.all(
-        color: accentColor.withOpacity(0.25),
-        width: 0.5,
-      ),
+      border: Border.all(color: accentColor.withOpacity(0.25), width: 0.5),
     );
   }
 }
